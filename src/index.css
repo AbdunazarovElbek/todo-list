@@ -1,0 +1,229 @@
+body {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.card {
+    padding: 10px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.qoshish {
+    padding-top: 20px;
+    border-radius: 5px;
+    padding: 50px;
+    margin-left: 40px;
+    width: 900px;
+    text-align: center;
+    padding: 30px 10px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    height: 90px;
+}
+
+.button button {
+    border: 0;
+    border-radius: 5px;
+    background-color: #8585ff;
+    margin-top: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.button .btn1 {
+    margin-right: 160px;
+}
+
+.button .btn3 {
+    margin-left: 160px;
+}
+
+.qoshish input {
+    width: 870px;
+    border-radius: 5px;
+    height: 40px;
+    border: 0, 5px black solid;
+
+}
+
+.qoshish button {
+    margin-top: 20px;
+    margin: 10px 0;
+    width: 880px;
+    border-radius: 5px;
+    background-color: #8585ff;
+    border: 0;
+    height: 40px;
+}
+
+.button2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    padding-left: 50px;
+}
+
+.button2 button {
+    width: 400px;
+    height: 50px;
+    background-color: rgb(216, 65, 65);
+    border-radius: 9px;
+    border: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.task {
+    border-radius: 50px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+
+
+.edit {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.delete {
+
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.update-modal {
+    
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    opacity: 0;
+    transition: 1s;
+    visibility: hidden;
+    top: 0;
+    background-color: rgba(128, 128, 128, 0.474);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-modal div {
+   
+    transform: scale(0);
+    position: relative;
+    padding: 100px 50px;
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.show-modal {
+    visibility: visible;
+    opacity: 1;
+}
+
+.show-modal div {
+    transform: scale(1);
+}
+
+.update-modal input {
+    background-color: rgba(255, 255, 255, 0.471);
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+}
+
+.update-modal button {
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(235, 235, 126);
+    cursor: pointer;
+}
+
+.update-modal .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+}
+
+.h2 {
+    color: black;
+}
+
+.cont {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 20px;
+    border-radius: 6px;
+    margin-top: 200px;
+    width: 700px;
+    height: 100%;
+    background-color: rgb(109, 109, 109);
+}
+
+body {
+    text-align: center;
+    background-color: rgb(238, 77, 168);
+}
+
+.inputqoshish {
+    margin-top: 10px;
+    margin-bottom: 10px ;
+    padding-left: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 600px;
+    height: 30px;
+    background-color: rgb(62, 62, 62);
+}
+
+.buttonqoshish {
+    border-radius: 5;
+    border: none;
+    width: 50px;
+    height: 30px;
+    background-color: rgb(231, 112, 179);
+}
+
+.delete img {
+    width: 20px;
+}
